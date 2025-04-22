@@ -1,0 +1,23 @@
+.card {
+  max-width: 33.75rem;
+  background-color: var(--grey);
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+}
+
+.card__info {
+  padding: 1rem 1.5rem;
+  min-height: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card__title {
+  font-size: 1.12rem;
+  font-weight: 700;
+}

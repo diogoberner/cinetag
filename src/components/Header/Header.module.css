@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 15%;
+  padding: 1.25rem 15%;
   background-color: var(--black);
   width: 100%;
 }
 
 .header__logo-container {
-  height: 50px;
+  height: 3.12rem;
 }
 
 .header__logo {
@@ -17,5 +17,5 @@
 
 .header__nav {
   display: flex;
-  gap: 80px;
+  gap: 5rem;
 }

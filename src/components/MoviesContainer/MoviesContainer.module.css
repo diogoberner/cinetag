@@ -1,0 +1,12 @@
+.movies__title {
+  text-align: center;
+  margin: 60px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.movies__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+}

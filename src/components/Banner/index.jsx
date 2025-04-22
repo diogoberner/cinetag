@@ -1,14 +1,15 @@
-import style from "./Banner.module.css";
+import styles from "./Banner.module.css";
 
 const Banner = ({ img }) => {
   return (
-    <div className={style["banner__container"]}>
-      <img
-        src={img}
-        alt="Banner do Cine Tag"
-        className={style["banner__img"]}
-      />
-    </div>
+    <div
+      className={styles["banner__container"]}
+      style={{
+        backgroundImage: `url(${img})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    />
   );
 };
 

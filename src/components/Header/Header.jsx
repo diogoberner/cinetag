@@ -1,15 +1,15 @@
-import style from "./Header.module.css";
+import styles from "./Header.module.css";
 import logo from "../../assets/images/logo.png";
 import MenuLink from "components/MenuLink";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className={style["header"]}>
-      <Link to="/" className={style["header__logo-container"]}>
+    <header className={styles["header"]}>
+      <Link to="/" className={styles["header__logo-container"]}>
         <img src={logo} alt="Logo da Cine Tag" className="header__logo" />
       </Link>
-      <nav className={style["header__nav"]}>
+      <nav className={styles["header__nav"]}>
         <MenuLink to="/">Home</MenuLink>
         <MenuLink to="/">Favoritos</MenuLink>
       </nav>

@@ -1,5 +1,5 @@
 import MoviesCard from "components/MovieCard";
-import style from "./MoviesContainer.module.css";
+import styles from "./MoviesContainer.module.css";
 import { useContext } from "react";
 import { MoviesContext } from "context/MoviesContext/MoviesContext";
 
@@ -8,7 +8,7 @@ const MoviesContainer = () => {
 
   return (
     <>
-      <section className={style["movies__container"]}>
+      <section className={styles["movies__container"]}>
         {movies.map((movie) => {
           return (
             <MoviesCard

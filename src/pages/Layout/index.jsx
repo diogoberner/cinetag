@@ -4,6 +4,7 @@ import bannerHome from "../../assets/images/banner-home.png";
 import bannerFavorite from "../../assets/images/banner-favoritos.png";
 import bannerPlayer from "../../assets/images/banner-player.png";
 import Banner from "components/Banner";
+import Footer from "components/Footer";
 
 const Layout = () => {
   const location = useLocation();
@@ -26,6 +27,7 @@ const Layout = () => {
       <Header />
       <Banner img={getBanner(location.pathname)} />
       <Outlet />
+      <Footer />
     </>
   );
 };

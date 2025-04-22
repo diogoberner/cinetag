@@ -1,0 +1,14 @@
+.footer {
+  padding: 2rem;
+  background-color: var(--black);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer__text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--white);
+  text-align: center;
+}

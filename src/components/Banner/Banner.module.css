@@ -1,7 +1,9 @@
 .banner__container {
-  width: 100%;
+  min-height: 15rem;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 .banner__img {
-  width: 100%;
+  height: 100%;
 }

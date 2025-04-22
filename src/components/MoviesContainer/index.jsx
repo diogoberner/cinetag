@@ -1,17 +1,24 @@
 import MoviesCard from "components/MovieCard";
 import style from "./MoviesContainer.module.css";
+import { useContext } from "react";
+import { MoviesContext } from "context/MoviesContext/MoviesContext";
 
 const MoviesContainer = () => {
+  const { movies } = useContext(MoviesContext);
+
   return (
     <>
-      <h2 className={style["movies__title"]}>
-        Um lugar para guardar seus vídeos e filmes!
-      </h2>
       <section className={style["movies__container"]}>
-        <MoviesCard />
-        <MoviesCard />
-        <MoviesCard />
-        <MoviesCard />
+        {movies.map((movie) => {
+          return (
+            <MoviesCard
+              key={movie.id}
+              title={movie.titulo}
+              image={movie.capa}
+              url={movie.link}
+            />
+          );
+        })}
       </section>
     </>
   );

@@ -10,14 +10,7 @@ const MoviesContainer = () => {
     <>
       <section className={styles["movies__container"]}>
         {movies.map((movie) => {
-          return (
-            <MoviesCard
-              key={movie.id}
-              title={movie.titulo}
-              image={movie.capa}
-              url={movie.link}
-            />
-          );
+          return <MoviesCard key={movie.id} movie={movie} />;
         })}
       </section>
     </>

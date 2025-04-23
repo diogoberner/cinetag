@@ -10,8 +10,8 @@ const Header = () => {
         <img src={logo} alt="Logo da Cine Tag" className="header__logo" />
       </Link>
       <nav className={styles["header__nav"]}>
-        <MenuLink to="/">Home</MenuLink>
-        <MenuLink to="/">Favoritos</MenuLink>
+        <MenuLink url="/">Home</MenuLink>
+        <MenuLink url="/favoritos">Favoritos</MenuLink>
       </nav>
     </header>
   );

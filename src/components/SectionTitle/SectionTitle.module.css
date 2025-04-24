@@ -1,4 +1,4 @@
-.section-title {
+.section-title h1 {
   text-align: center;
   margin: 3.75rem;
   font-weight: 500;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .section-title {
+  .section-title h1 {
     font-size: 1.1rem;
     margin: 2.5rem 5%;
     font-weight: 400;

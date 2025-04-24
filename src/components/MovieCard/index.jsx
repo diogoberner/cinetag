@@ -16,7 +16,7 @@ const MoviesCard = ({ movie }) => {
 
   return (
     <div className={styles["card"]}>
-      <Link to={movie.link} className={styles["card__link"]}>
+      <Link to={`/player/${movie.id}`} className={styles["card__link"]}>
         <img
           src={movie.capa}
           alt={`Capa do vídeo ${movie.titulo}`}

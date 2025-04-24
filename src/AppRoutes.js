@@ -12,10 +12,7 @@ function AppRoutes() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/favoritos" element={<Favorite />} />
-          <Route
-            path="/player/:id"
-            element={<Player url="https://www.youtube.com/embed/ypvGqZGJBls" />}
-          />
+          <Route path="/player/:id" element={<Player />} />
         </Route>
       </Routes>
     </BrowserRouter>

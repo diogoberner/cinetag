@@ -1,15 +1,22 @@
+import Video from "components/Video";
 import styles from "./Player.module.css";
+import SectionTitle from "components/SectionTitle";
+import { useParams } from "react-router-dom";
+import { useContext } from "react";
+import { MoviesContext } from "context/MoviesContext/MoviesContext";
 
-const Player = ({ url }) => {
+const Player = () => {
+  const { id } = useParams();
+  const { movies } = useContext(MoviesContext);
+
+  const movie = movies.find((movie) => movie.id === Number(id));
+
   return (
     <div className={styles["player"]}>
-      <iframe
-        style={{ width: "100%", aspectRatio: "16/9" }}
-        src={`${url}`}
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
+      <SectionTitle>
+        <h1>Player</h1>
+      </SectionTitle>
+      {movie ? <Video url={movie.link} /> : null}
     </div>
   );
 };

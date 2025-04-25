@@ -4,12 +4,17 @@ import SectionTitle from "components/SectionTitle";
 import { useParams } from "react-router-dom";
 import { useContext } from "react";
 import { MoviesContext } from "context/MoviesContext/MoviesContext";
+import NotFound from "pages/NotFound";
 
 const Player = () => {
   const { id } = useParams();
   const { movies } = useContext(MoviesContext);
 
   const movie = movies.find((movie) => movie.id === Number(id));
+
+  if (!movie) {
+    return <NotFound />;
+  }
 
   return (
     <div className={styles["player"]}>

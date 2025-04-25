@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+🧩 Cinetag - Aplicação de Catálogo e Player de Filmes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido durante os estudos na Alura, com adaptações e incrementos próprios. O **Cinetag** é uma aplicação front-end que simula um catálogo de filmes, permitindo ao usuário explorar uma lista, visualizar detalhes e assistir ao trailer dos filmes, além de marcar seus favoritos.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+🔧 Funcionalidades Implementadas
 
-### `npm start`
+✅ Listagem de filmes com imagem, título e botão de favorito  
+✅ Página dedicada para assistir ao vídeo do filme no YouTube  
+✅ Sistema de favoritos usando contexto global  
+✅ Layout reutilizável com React Router e Outlet  
+✅ Página de "Favoritos" separada  
+✅ Página de "Não encontrado" para rotas inválidas  
+✅ Carregamento visual com estado de loading  
+✅ Design responsivo com `rem` e boas práticas de CSS modular
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🧪 Tecnologias e Ferramentas Utilizadas
 
-### `npm test`
+- HTML5 & CSS3 (modularizado)
+- React Router DOM
+- useState, useEffect, useContext
+- Context API para gerenciar estado global
+- react-icons (para ícones de favoritos)
+- Organização com estrutura de pastas por responsabilidade
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+💡 Conceitos React Abordados
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Manipulação de estado com `useState`
+- Compartilhamento de dados com `Context API`
+- Leitura de parâmetros de rota com `useParams`
+- Estruturação de rotas aninhadas com `Outlet`
+- Condicional de carregamento e fallback (loading e NotFound)
+- Componentização limpa e reutilizável
+- Responsividade e boas práticas com `rem`
+- Modularização e reutilização de estilos com CSS Modules
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🎯 Objetivos com o Projeto
 
-### `npm run eject`
+- Consolidar os fundamentos de React na prática
+- Aplicar rotas e contexto em um projeto realista
+- Praticar lógica, organização de componentes e estados
+- Criar um projeto visualmente limpo e funcional
+- Avançar rumo ao primeiro emprego como desenvolvedor front-end
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🧔 Sobre o Desenvolvedor
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sou o Diogo, estudante de programação e apaixonado por desenvolvimento web. Cada projeto que desenvolvo é parte do meu propósito de construir uma carreira sólida. Estou sempre em busca da melhor versão de mim, dentro e fora do código.

@@ -6,7 +6,7 @@
   gap: 2.5rem;
   padding: 1.25rem 15%;
   background-color: var(--black);
-  width: 100vw;
+  width: 100%;
 }
 
 .header__logo-container {

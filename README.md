@@ -1,6 +1,6 @@
 🧩 Cinetag - Aplicação de Catálogo e Player de Filmes
 
-Projeto desenvolvido durante os estudos na Alura, com adaptações e incrementos próprios. O **Cinetag** é uma aplicação front-end que simula um catálogo de filmes, permitindo ao usuário explorar uma lista, visualizar detalhes e assistir ao trailer dos filmes, além de marcar seus favoritos.
+Projeto desenvolvido durante os estudos na Alura, com adaptações e incrementos próprios. O **Cinetag** é uma aplicação front-end que simula um catálogo de filmes, permitindo ao usuário explorar uma lista, além de marcar seus favoritos.
 
 ---
 
